@@ -1,0 +1,64 @@
+/* 600px */
+@media (max-width: 600px){ 
+
+    .btn-lg{
+        font-size: 7vw;
+
+    }
+    .mainmygtukai{
+        margin-top: 15%
+    }
+
+    .display-1{
+        font-size: calc(1rem + 4.5vw);    
+    }
+
+    #dropdownMenuButton1{
+        padding: 0.1rem !important;    
+    }
+
+    .backtotop{
+        font-size: 0.8rem;
+    }
+
+    .row{
+        --bs-gutter-x: 1.0rem;
+    }
+    .display-6{
+        font-size: calc(0.5rem + 1.5vw);
+    }
+
+    .form-container > .row {
+        padding: 0,6rem 0;
+    }
+    form{
+        padding: 1rem 1rem;
+    }
+
+    .form-popup { 
+        width: 80%;
+        top: 30%;      
+        left: 10%;
+    }   
+
+    
+
+  
+}
+
+
+
+@media (max-width: 999px){ 
+
+    .index, .contacts {
+        background-image: url("background/siauras.jpg");
+        background-size: cover;
+    }
+}
+@media (min-width: 1000px){ 
+
+    .index, .contacts {
+        background-image: url("background/trumpas.jpg");
+        background-size: cover;
+    }
+}

@@ -1,0 +1,150 @@
+.portraits, .landscapes {
+    background: linear-gradient(to bottom, rgb(193, 193, 218) 0%, 14.34782684894298%, rgb(201, 192, 211) 33.69565308094025%, 58.399209528118675%, rgb(221, 194, 166) 100%);
+}
+
+.container-fluid{
+    padding: 3% 10% !important;
+}
+
+.display-1{
+    color: rgba(46, 45, 64, 1);
+    width: 100%    
+}
+
+.mainmygtukai{
+    margin-top: 7%;
+    align-self: center;
+    vertical-align: middle;
+}
+
+.btn{   
+    border-color: rgba(85, 63, 68, 1);
+    border-width: 0.1vw;
+    border-radius: 0%;
+    background-color: rgba(189, 170, 191, 1);
+    color: rgba(38, 38, 59, 1);      
+}
+
+.btn-lg{
+    width: 100%;
+    font-size: 3vw;
+}
+
+.btn:hover, .dropdown-item:hover{
+    background-color: rgb(110, 85, 91);
+    color: rgba(38, 38, 59, 1);
+}
+
+.dropdown{
+    text-align: end;
+    width: 100%;
+}
+
+
+
+.dropdown-item{
+    background-color: rgba(189, 170, 191, 1);
+    color: rgba(38, 38, 59, 1);
+    border-color: rgba(85, 63, 68, 1);
+    border-width: 0.1vw;
+}
+
+.dropdown-menu.show{
+    background-color: rgba(189, 170, 191, 1);
+    color: rgba(38, 38, 59, 1);
+    border-color: rgba(85, 63, 68, 1);
+    border-width: 0.1vw;
+    border-radius: 0;
+}
+
+.img-fluid{
+   padding: calc(var(--bs-gutter-x) * .5) 0;
+   height: 100%;
+   max-height: 50vw;
+   width: 100%;
+   object-fit: cover;
+}
+ .col-12 > .row > .col-12{
+    max-height: 25vw;
+ }
+
+.backtotop{
+    background-color: rgb(179, 147, 147);
+    width: 100%;
+    white-space: nowrap;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.bi {
+    width: 2rem;
+    height: 2rem;
+    fill: rgba(38, 38, 59, 1);
+}
+
+/* The popup form - hidden by default */
+.form-popup {  
+    display: none;
+    z-index: 1000;
+    width: 60%;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+}
+
+form{
+    padding: 1rem 3rem;
+    background-color:rgba(83, 83, 117, 0.9);
+}
+
+.form-container > .row {
+    padding: 1rem 0;
+}
+
+
+.display-6{
+    font-size: calc(0.3rem + 1.5vw);
+    font-weight: 400;
+}
+
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+}
+.contactme{
+    text-align: center;
+}
+
+.fab{
+    color: rgba(38, 38, 59, 1);
+    size-adjust: 200%;
+    padding-bottom: 1rem;
+}
+
+/* Message flashing */
+.flash {
+    background-color:rgba(83, 83, 117, 0.8);
+    font: rgba(46, 45, 64, 1);
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 1000;
+    position: fixed;
+    top:30%;
+    left:15%;
+  }
+
+
+/* Color Theme Swatches in RGBA */
+.color-theme_IMG_20171201_232514-1-rgba { color: rgba(46, 45, 64, 1); }
+.color-theme_IMG_20171201_232514-2-rgba { color: rgba(189, 170, 191, 1); }
+.color-theme_IMG_20171201_232514-3-rgba { color: rgba(159, 160, 191, 1); }
+.color-theme_IMG_20171201_232514-4-rgba { color: rgba(38, 38, 59, 1); }
+.color-theme_IMG_20171201_232514-5-rgba { color: rgba(85, 63, 68, 1); }
